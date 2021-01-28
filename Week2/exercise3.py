@@ -13,5 +13,5 @@ output.sort()
 first_three_entries = output[:3]
 new_str = '\n'.join(first_three_entries)
 
-f = open('arp_entries.txt','w')
+f = open('arp_entries.txt', 'w')
 f.write(new_str)

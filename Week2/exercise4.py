@@ -9,4 +9,3 @@ fast_eth4 = output[5]
 intf_name, ip_address = fast_eth4.split()[:2]
 fast_eth4_tuple = (intf_name, ip_address)
 print(fast_eth4_tuple)
-

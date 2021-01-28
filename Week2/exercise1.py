@@ -7,7 +7,7 @@ output = f.read()
 print(output, '\n')
 print(type(output))
 f.close()
-print('-'*60,'\n')
+print('-'*60, '\n')
 
 with open('show_version.txt') as f:
     output = f.readlines()

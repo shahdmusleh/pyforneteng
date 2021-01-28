@@ -12,5 +12,5 @@ for line in output.splitlines():
         continue
     vlan_id, vlan_name = line.split()[:2]
     vlan_list.append((vlan_id, vlan_name))
-    
+
 pprint(vlan_list)
